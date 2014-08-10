@@ -1,0 +1,36 @@
+* Design
+** Technologies
+*** Sinatra
+*** Thin
+*** Kwalify
+** YAML
+*** entry
+#+BEGIN_SRC yaml
+  time: time-specifier
+  location: location-specifier
+  name: name-specifier
+  type: type-specifier
+  data: type-data
+#+END_SRC
+*** time-specifier
+#+BEGIN_SRC yaml
+  start-time: 2014-08-10 14:21:09
+  end-time: 2014-08-10 15:21:09
+#+END_SRC
+*** location-specifier
+#+BEGIN_SRC yaml
+  gps: blah
+  
+  OR
+  
+  locaiton-string: blah
+#+END_SRC
+*** name-specifier
+#+BEGIN_SRC yaml
+  full-name: blah
+#+END_SRC
+*** type-specifier
+#+BEGIN_SRC yaml
+blah_string
+#+END_SRC
+
